@@ -3,9 +3,13 @@ http://54.152.120.192:8085/
 
 ## Tags Used
 name	:bishweashwar-ec2
+
 owner	:bishweashwar.suk@tigeranalytics.com
+
 team	:mle
+
 project	:aws-training
+
 
 ## Steps 
 
@@ -71,7 +75,7 @@ For other error google it.
         save the file (Ctrl + X -> press ENTER key)
         
     xi. sudo service nginx restart.
-    
+
     xii. Now get inside Software folder. If it is in local machine then use below command to transfer into EC2 instance:
 
     exit (to stop instance)
@@ -97,7 +101,7 @@ For other error google it.
     xv. Close the server using 
     Ctrl + C
     
-    xv. nohup gunicorn app:app & 
+    xvi. nohup gunicorn app:app & 
         press ENTER key
 
     After running above command you need not run server in background always.
