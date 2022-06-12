@@ -31,20 +31,28 @@ For other error google it.
 5. After this you need to install every package required by your after inside instance.
 
 6. Use the folloing command:
-    i. sudo apt-get update
-    ii. sudo apt-get install python3
-    iii. sudo apt-get install python3-pip
-    iv. pip3 install flask
-    v. sudo apt-get install nginx (python web server)
+    i. sudo apt-get update.
+
+    ii. sudo apt-get install python3.
+
+    iii. sudo apt-get install python3-pip.
+
+    iv. pip3 install flask.
+
+    v. sudo apt-get install nginx (python web server).
+
     vi. sudo apt-get install gunicorn (python web server getway interface or wxgi )
     
     Now you have to setup AWS configuration also
 
-    vii. pip3 install awscli
+    vii. pip3 install awscli.
+
     viii. aws configure (insert your key, id region) & after this open credentials inside .aws folder and  save your profile name inside  that.
+
     ix. cd ~/../../etc/sites-enabled/
 
     ![](images/nginx-server-location.PNG)
+
 
     x. sudo nano flaskapp (for configuring nginx server)
 
@@ -63,6 +71,7 @@ For other error google it.
         save the file (Ctrl + X -> press ENTER key)
         
     xi. sudo service nginx restart.
+    
     xii. Now get inside Software folder. If it is in local machine then use below command to transfer into EC2 instance:
 
     exit (to stop instance)
