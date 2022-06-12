@@ -74,9 +74,13 @@ For other error google it.
     ## Run you app using gunicorn3
     gunicorn3 app:app
 
-    xiv. Now  copy your public IP from instance page and run it  
-    ## My public IP 
+    xiv. Now  copy your public IP from instance page and run it 
+    
+    
+    ## My public IP & deployed-flask-app link
     http://54.152.120.192:8085/ 
+
+
 
     xv. Close the server using 
     Ctrl + C
