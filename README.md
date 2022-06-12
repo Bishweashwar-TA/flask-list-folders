@@ -61,13 +61,21 @@ For other error google it.
     x. sudo nano flaskapp (for configuring nginx server)
 
       server {
+
         listen 8085; //Use any port from which you want to get traffic from internet . 
+
                     //By default 80  is their but for assignment purpose I have used 8085 (TCP)
+
                     //In Security group of your instance you also need  to add 8085 port.
+
         server_name 54.152.120.192; //Paste your Public IP here
+
         location / {
+
         proxy_pass http://127.0.0.1:8000;
+
             }
+            
         }
 
     ![](images/nginx-server-code.PNG)
