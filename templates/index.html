@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css')}}">
+    {% if title %}
+    <title>Home Page-{{title}}</title>
+    {% else %}
+    <title>Home Page</title>
+    {% endif %}
+</head>
+
+<body>
+    {% for sub_folder, files in posts.items() %}
+    <h1>Files in {{sub_folder}} location are:</h1>
+    <ul style="list-style-type:square;line-height:180%;font-size: 25px">
+        <li>{{files}}</li>
+    </ul>
+    {% endfor %}
+</body>
+
+</html>
