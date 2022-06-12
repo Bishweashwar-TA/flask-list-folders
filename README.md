@@ -1,3 +1,6 @@
+## Deployed-Flask-APP link 
+http://54.152.120.192:8085/
+
 ## Tags Used
 name	:bishweashwar-ec2
 owner	:bishweashwar.suk@tigeranalytics.com
@@ -95,3 +98,6 @@ For other error google it.
 
     ## Security Group Image
     ![](images/security-groups.PNG)
+
+    ## s3 Bucket folders
+    ![](images/s3.PNG)
