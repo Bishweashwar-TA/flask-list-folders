@@ -62,7 +62,7 @@ For other error google it.
 
         save the file (Ctrl + X -> press ENTER key)
         
-    xi. sudo service nginx restart
+    xi. sudo service nginx restart.
     xii. Now get inside Software folder. If it is in local machine then use below command to transfer into EC2 instance:
 
     exit (to stop instance)
