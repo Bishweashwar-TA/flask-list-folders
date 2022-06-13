@@ -1,0 +1,19 @@
+body {
+    background: #02242c;
+    margin-left: 3em;
+
+}
+  
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(108, 98, 165);
+    font-size: 45px;
+}
+
+ul {
+    font-family: sans-serif;
+    color: #b9fc02;
+    list-style-type:square;
+    line-height:180%;
+    font-size: 25px;
+}
