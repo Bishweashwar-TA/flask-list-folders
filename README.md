@@ -53,7 +53,7 @@ For other error google it.
 
     viii. aws configure (insert your key, id region) & after this open credentials inside .aws folder and  save your profile name inside  that.
 
-    ix. cd ~/../../etc/sites-enabled/
+    ix. cd ~/../../etc/nginx/sites-enabled/
 
     ![](images/nginx-server-location.PNG)
 
