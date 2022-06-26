@@ -49,7 +49,7 @@ For other error google it.
     
     Now you have to setup AWS configuration also
 
-    vii. pip3 install awscli.
+    vii. sudo apt install awscli.
 
     viii. aws configure (insert your key, id region) & after this open credentials inside .aws folder and  save your profile name inside  that.
 
