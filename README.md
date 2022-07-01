@@ -35,6 +35,7 @@ For other error google it.
 5. After this you need to install every package required by your after inside instance.
 
 6. Use the folloing command:
+
     i. sudo apt-get update.
 
     ii. sudo apt-get install python3.
